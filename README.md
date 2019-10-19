@@ -4,10 +4,10 @@ Arduino sketch - ESP32 BLE client for XIaomi Mi Flora Plant sensors. ESP32 can b
 
 ## Hardware & Software used
 
-- Adafruit 'HUZZAH32 <https://www.adafruit.com/product/3405>'– ESP32 Feather Board
-- Adafruit 'Lithium Ion Battery <https://www.adafruit.com/product/2011>'- 3.7v 2000mAh
+- Adafruit 'HUZZAH32 <https://www.adafruit.com/product/3405>' – ESP32 Feather Board
+- Adafruit 'Lithium Ion Battery <https://www.adafruit.com/product/2011>' - 3.7v 2000mAh
 - Xiaomi Mi Plant Sensor
-- MQTT server: 'Home Assistant <https://home-assistant.io>'- Mosquitto broker add-on
+- MQTT server: 'Home Assistant <https://home-assistant.io>' - Mosquitto broker add-on
 
 ## Setup
 
