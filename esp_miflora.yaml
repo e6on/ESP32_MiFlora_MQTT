@@ -1,0 +1,42 @@
+
+sensor:  
+  - platform: mqtt
+    state_topic: "flora/C4:7C:8D:6A:E2:1B/temperature"
+    name: "Orhidee Temperature"
+    unit_of_measurement: "°C"
+    device_class: temperature
+    force_update: true
+  - platform: mqtt
+    state_topic: "flora/C4:7C:8D:6A:E2:1B/moisture"
+    name: "Orhidee Moisture"
+    unit_of_measurement: "%"
+    device_class: humidity
+    force_update: true
+  - platform: mqtt
+    state_topic: "flora/C4:7C:8D:6A:E2:1B/light"
+    name: "Orhidee Brightness"
+    unit_of_measurement: "lux"
+    device_class: illuminance
+    force_update: true
+  - platform: mqtt
+    state_topic: "flora/C4:7C:8D:6A:E2:1B/conductivity"
+    name: "Orhidee Conductivity"
+    unit_of_measurement: "uS/cm"
+    force_update: true
+  - platform: mqtt
+    state_topic: "flora/C4:7C:8D:6A:E2:1B/battery"
+    name: "Orhidee Sensor Battery"
+    unit_of_measurement: "%"
+    device_class: battery
+    force_update: true
+  - platform: mqtt
+    state_topic: "esp/30:AE:A4:26:23:C0/battery_volt"
+    name: "ESP32 Battery Voltage"
+    unit_of_measurement: "V"
+    force_update: true
+  - platform: mqtt
+    state_topic: "esp/30:AE:A4:26:23:C0/battery_prec"
+    name: "ESP32 Battery Percent"
+    unit_of_measurement: "%"
+    device_class: battery
+    force_update: true
