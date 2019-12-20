@@ -383,7 +383,7 @@ void setup() {
     Serial.println("   >> Published");
   }
   // battery percent
-  percent = ((voltage-3)/0.7)*100;
+  percent = ((voltage-3.2)/0.7)*100;
   Serial.print("-- Percent: ");
   Serial.print(percent);
   Serial.print(" %");
