@@ -11,7 +11,7 @@ Arduino sketch - ESP32 BLE client for XIaomi Mi Flora Plant sensors. ESP32 can b
 
 ## Setup
 
-1. Install the Espressif Arduino-ESP32 support
+1. Install the Espressif Arduino-ESP32 support - https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
 2. Edit settings in config.h:
 - FLORA_DEVICES - MAC address(es) of your Xiaomi Mi Plant sensor(s)
 - SLEEP_DURATION - sleep duration between sensor reads
