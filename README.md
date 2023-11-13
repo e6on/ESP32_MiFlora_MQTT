@@ -1,4 +1,4 @@
-If you prefer to use ESPHome instead of MQTT then check this - https://github.com/e6on/ESP32_MiFlora_ESPHome
+If you prefer to use ESPHome instead of MQTT then check this - [ESP32_MiFlora_ESPHome](https://github.com/e6on/ESP32_MiFlora_ESPHome)
 
 ## ESP32_MiFlora_MQTT
 
