@@ -1,3 +1,5 @@
+If you prefer to use ESPHome instead of MQTT then check this - https://github.com/e6on/ESP32_MiFlora_ESPHome
+
 ## ESP32_MiFlora_MQTT
 
 Arduino sketch - ESP32 BLE client for XIaomi Mi Flora Plant sensors. ESP32 can be powered with LiPo battery and battery level is read from ADC pin. ESP32 battery level and Mi Flora sensor measurements are pushed to the MQTT server.
